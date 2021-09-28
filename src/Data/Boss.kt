@@ -1,7 +1,7 @@
 package Data
 
 open class Boss(name : String) : Employee(name) {
-    fun sayHello(name : String){
+    override fun sayHello(name : String){
         println("Bonjour $name, Je m'appele monsieur ${this.name}")
     }
 }
